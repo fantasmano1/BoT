@@ -1,0 +1,30 @@
+{
+    "name": "FantaBoTT",
+    "version": "0.0.1",
+    "decription": "Bot del servidor ???",
+    
+    "author": {
+        "name": "Fantasmano",
+        "email": "aldairmelendez29@hotmail.com"
+    },
+    
+    "dependencies": {
+        "colors": "1.0.3",
+        "sugar": "1.4.1",
+        "websocket": "1.0.18"
+	},
+	
+	"main": "bot",
+    "bin": "./bot.js",
+	
+	"engines": {
+        "node": ">=0.10.0"
+    },
+    
+    "scripts": {
+        "start": "node bot.js"
+    },
+    
+    "license": "MIT",
+    "private": true    
+    
